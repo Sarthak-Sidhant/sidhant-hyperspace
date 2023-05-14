@@ -83,6 +83,16 @@
 	<footer>
         <p>&copy; 2023 Sidhant Hyperspace. All rights reserved.</p>
 </footer>
+<script>
+    function openPopup(popupId) {
+  const popupContainer = document.getElementById(popupId);
+  const closeBtn = popupContainer.querySelector(".close-btn");
+  popupContainer.style.display = "block";
+  closeBtn.addEventListener("click", function() {
+    popupContainer.style.display = "none";
+  });
+}
 
+</script>
 </body>
 </html>
