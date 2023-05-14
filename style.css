@@ -8,17 +8,24 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: #111;
     color: white;
     padding: 20px;
   }
   
   h1 {
     margin: 0;
-    font-size: 66px;
+    font-size: 72px;
     font-family: 'Ms Madi', cursive;
     font-weight: 300;
     text-align: center;
+  }
+
+  header h3{
+    font-family: 'Sono', sans-serif;
+    font-weight: 300;
+    text-align:center!important;
+    font-size:24px;
   }
   
   main {
@@ -37,13 +44,19 @@ body {
   }
   
   .project:nth-child(even) {
-    background-color: #222;
+    background-color: #111;
   }
   
   .project:hover {
     box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    transition: box-shadow 0.3s ease-in-out;
   }
   
+
+  .project:hover h2 {
+    color: goldenrod;
+  }
+
   h2 {
     font-size: 24px;
     margin: 0;
@@ -78,23 +91,24 @@ body {
   
   .links a {
     margin-right: 10px;
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #1fd655;
+    background-color: none;
     padding: 10px 20px;
     border-radius: 20px;
-    border: 2px solid transparent;
+    border: 2px solid #1fd655;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
   }
   
   .links a:hover {
-    border-color: rgba(255, 255, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #1fd655;
+    color: #111;
+    transition: all 0.2s ease-in-out;
   }
   
   footer {
-    background-color: #333;
+    background-color: #111;
     color: white;
     padding: 20px;
     text-align: center;
