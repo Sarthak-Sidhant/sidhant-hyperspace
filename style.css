@@ -41,6 +41,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255,255,255,0.2);
     transition: box-shadow 0.2s ease-in-out;
+    
   }
   
   .project:nth-child(even) {
@@ -131,10 +132,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
-    background-color: #232323;
+    background-color: #111;
     color: #fff;
     padding: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border: #fff solid;
+    border-radius: 10px;
+    height: 60%;
+    width: 60%;
   }
   
   .close-btn {
@@ -151,7 +156,7 @@ body {
   }
   
   .close-btn:hover {
-    color: #fff;
+    color: goldenrod;
   }
   
   .popup-content {
@@ -165,14 +170,19 @@ body {
   .trigger-div {
     cursor: pointer;
     color: #1fd655;
-    border: 2px solid #1fd655;
+    margin-top: 7.5px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
+    border: 2px solid #1fd655;
     transition: all 0.3s ease-in-out;
+    font-family: Sono, sans-serif;
+    font-weight: bold;
+    
+    
   }
   
   .trigger-div:hover {
     background-color: #1fd655;
-    color: #fff;
+    color: #000;
   }
   
