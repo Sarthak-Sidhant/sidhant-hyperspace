@@ -143,7 +143,7 @@ body {
     max-width: 90%;
     max-height: 90%;
     overflow:auto;
-    
+        
   }
   
   .close-btn {
@@ -181,7 +181,6 @@ body {
     transition: all 0.3s ease-in-out;
     font-family: Sono, sans-serif;
     font-weight: bold;
-    
     
   }
   
