@@ -138,8 +138,12 @@ body {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     border: #fff solid;
     border-radius: 10px;
-    height: 60%;
-    width: 60%;
+    height: 120vh;
+    width: auto;
+    max-width: 90%;
+    max-height: 90%;
+    overflow:auto;
+    
   }
   
   .close-btn {
