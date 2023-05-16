@@ -175,7 +175,7 @@ body {
     cursor: pointer;
     color: #1fd655;
     margin-top: 7.5px;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 20px;
     border: 2px solid #1fd655;
     transition: all 0.3s ease-in-out;
