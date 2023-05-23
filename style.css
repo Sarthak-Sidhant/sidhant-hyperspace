@@ -191,6 +191,7 @@ body {
   
  *{
   text-decoration: none;
+
  }
   
   /* A quick explaination of how this effect works. A span elemnt won't have a width of it's own. So we convert it to an inline-block using the display property. Then we turn down the max-width of the element to 0. The reason we use max-width is due to a side-effect which is harder to explain in words so just try to replace that with width ;). You'll see that even when we changed the element's width to 0, it's still showing the text. For this we re gonna use overflow property and set it to hidden. To keep the text in one line and aligned properly, we are gonna use the white-space and vertical-align property as set below. The final thing we'll do is to give transition to the max-width property. */
